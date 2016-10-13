@@ -106,11 +106,11 @@ library
                        FunctionalDependencies,
                        DeriveFunctor,
                        ScopedTypeVariables
-  build-depends:       base >=4.6 && < 4.9,
+  build-depends:       base >=4.6 && < 4.10,
                        bytestring >=0.10,
                        binary >=0.7,
                        binary-bits >=0.5,
-                       template-haskell >=2.8,
+                       template-haskell ==2.11.*,
                        mtl >= 2.2.1,
                        aeson >= 0.8.0.2,
                        text >= 1.2.0.4,
